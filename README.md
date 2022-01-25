@@ -27,10 +27,6 @@
 
   <p align="center">
     A website that generates any (reasonable) number of random Swahili words!
-    <br />
-    <a href="https://github.com/Bichwaa/swahili-ipsum"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
     <a href="https://github.com/Bichwaa/swahili-ipsum">View Demo</a>
     ·
     <a href="https://github.com/Bichwaa/swahili-ipsum/issues">Report Bug</a>
