@@ -8,9 +8,13 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 [![Contributors][contributors-shield]][contributors-url]
+
 [![Forks][forks-shield]][forks-url]
+
 [![Stargazers][stars-shield]][stars-url]
+
 [![Issues][issues-shield]][issues-url]
+
 [![MIT License][license-shield]][license-url]
 
 
@@ -25,7 +29,7 @@
   <h3 align="center">Best-README-Template</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    A website that generates any (reasonable) number of random Swahili words!
     <br />
     <a href="https://github.com/Bichwaa/swahili-ipsum"><strong>Explore the docs »</strong></a>
     <br />
@@ -50,14 +54,6 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -158,7 +154,7 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Bichwaa/swahili-ipsum.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/bichwaa/swahili-ipsum.svg?style=for-the-badge
 [contributors-url]: https://github.com/Bichwaa/swahili-ipsum/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Bichwaa/swahili-ipsum.svg?style=for-the-badge
 [forks-url]: https://github.com/Bichwaa/swahili-ipsum/network/members
