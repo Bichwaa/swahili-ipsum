@@ -1,0 +1,144 @@
+:root {
+    --primary-color:#1F508fff;
+    --secondary-color:#8f5e10ff;
+    --accent-color: #e6e6e6ff;
+    --bg-color:#0a0a0aff;
+  }
+  
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 3em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    background: var(--bg-color);
+}
+
+/* UTILITIES */
+.centered-grid{
+    display: grid;
+    place-items: center;
+}
+
+.hidden{
+    display: none;
+}
+
+header{
+    
+}
+
+.scaffold{
+    margin: 1em 0;
+}
+
+.form-container{
+    margin: 1em 0;
+}
+
+form input{
+    margin: .5em 0;
+}
+
+label[for="words"]{
+    color: var(--accent-color);
+}
+
+form input[name="words"]{
+    border: solid var(--primary-color) .5px;
+    border-radius:7px;
+    padding:.5em;
+}
+
+form input[type="submit"]{
+    background-color: var(--primary-color);
+    border-radius:7px;
+    color: var(--accent-color);
+    border:none;
+    cursor: pointer;
+    padding: .5em 1em;
+    font-weight:700;
+    transition: background-color .5s;
+}
+
+form input[type="submit"]:hover{
+    background-color: var(--secondary-color);
+}
+
+
+.text-container{
+    margin: 4em 0;
+}
+
+.boundary{
+    display: flex;
+    flex-direction: column;
+    border: solid .5px rgba(26, 25, 25, 0.445);
+    border-radius: 15px;
+    padding: 1em 2em;
+}
+
+.copy{
+    align-self: flex-end;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+
+.text{
+    color: var(--accent-color)
+}
+
+.clicked-button{
+    transform: translate(1px, 2px);
+}
+
+@media only screen and (min-width: 800px) {
+    .boundary{
+        width:70%;
+        border: solid .5px rgba(26, 25, 25, 0.445);
+        border-radius: 15px;
+        padding: 1em 2em;
+    }
+  }
+
+  @media only screen and (min-width: 1500px) {
+    .boundary{
+        width:50%;
+        border: solid .5px rgba(26, 25, 25, 0.445);
+        border-radius: 15px;
+        padding: 1em 2em;
+    }
+  }
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    /* display: inline-block; */
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    /* width: 120px; */
+    background-color: rgba(253, 177, 54, 0.637);
+    color: #fff;
+    text-align: center;
+    padding: 5px 7px;
+    opacity: .5;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    right: -1%;
+    top: -25%;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }

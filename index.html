@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Swahili Ipsum</title>
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+  <script src="./scripts/sw.js"></script>
+  <script src="./scripts/generator.js"></script>
+</head>
+
+<body>
+  <header class="centered-grid">
+    <img alt="Swahili Ipsum's logo" src="images/logo.svg" width="250" height="250"> 
+  </header>
+  <section class="scaffold"></section>
+  <div class="form-container centered-grid">
+    <form id="form" class="centered-grid" action="#" method="POST"> 
+      <label for="words">How many words?</label>
+      <br>
+      <input id="form-amount"  type="number" name="words" value="500">
+      <br>
+      <input id="form-submit" type="submit" value="generate"></form>
+  </div>
+  <div class="text-container centered-grid">
+    <div class="boundary tooltip">
+      <img class="copy" alt="copy-icon" id="copy" src="images/copy.svg" width="35" heigh="35">
+      <span class="tooltiptext">copy</span>
+      <p class="text" id="text"> </p>
+    </div>
+  </div>
+  <script> 
+  const copy = document.getElementById("copy");
+  const form = document.getElementById("form");
+
+    copy.addEventListener("click", () => {
+      if (navigator)
+        navigator.clipboard.writeText(document.querySelector("#text").innerText)
+    })
+
+
+    form.addEventListener("submit", (e)=>{
+      const text = document.getElementById("text");
+      e.preventDefault();
+      let amount = parseInt(document.getElementById("form-amount").value)
+      text.innerText = bunchWords(amount)
+    })
+    </script>
+</body>
+
+</html>
