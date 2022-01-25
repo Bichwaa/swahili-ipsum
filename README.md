@@ -19,7 +19,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Bichwaa/swahili-ipsum">
-    <img src="images/logo.svg" alt="Logo" width="80" height="80">
+    <img src="images/logo.svg" alt="Logo" width="150" height="150">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
