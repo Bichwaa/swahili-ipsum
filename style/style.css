@@ -69,15 +69,9 @@ form input[type="submit"]:hover{
 }
 
 
-.text-container{
-    margin: 4em 0;
-}
-
 .boundary{
     display: flex;
     flex-direction: column;
-    border: solid .5px rgba(26, 25, 25, 0.445);
-    border-radius: 15px;
     padding: 1em 2em;
 }
 
@@ -96,7 +90,23 @@ form input[type="submit"]:hover{
     transform: translate(1px, 2px);
 }
 
+@media only screen and (max-width: 799px) {
+    .text-container{
+        /* border: solid .5px rgba(26, 25, 25, 0.445); */
+        border-radius: 15px;
+        margin:4em;
+    }
+    .boundary{
+        border: solid .5px rgba(26, 25, 25, 0.445);
+        border-radius: 15px;
+    }
+}
+
 @media only screen and (min-width: 800px) {
+    .text-container{
+        margin:4em;
+    }
+
     .boundary{
         width:70%;
         border: solid .5px rgba(26, 25, 25, 0.445);
@@ -106,6 +116,10 @@ form input[type="submit"]:hover{
   }
 
   @media only screen and (min-width: 1500px) {
+    .text-container{
+        margin:4em;
+    }
+
     .boundary{
         width:50%;
         border: solid .5px rgba(26, 25, 25, 0.445);
