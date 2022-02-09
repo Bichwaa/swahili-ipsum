@@ -55,6 +55,7 @@ header p{
     color: var(--secondary-color);
     font-weight:600;
     text-transform: uppercase;
+    text-align:center;
 }
 
 .scaffold{
