@@ -72,8 +72,6 @@ This is a web page that generate the number of swahili words you specify. Use it
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://www.w3schools.com/css/)
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -135,8 +133,6 @@ Project Link: [https://github.com/Bichwaa/swahili-ipsum](https://github.com/Bich
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
 * [Swahili](https://github.com/alphaolomi/swahili)
 * [Othneildrew's README.md template](https://github.com/Bichwaa/swahili-ipsum)
